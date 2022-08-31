@@ -1,7 +1,8 @@
-import ChMessage, { IChMessage } from "../Components/ChMessage"
-import ChButton, {IChButton} from "../Components/ChButton";
+import ChMessage, { IChMessage } from "../components/ChMessage"
+import ChButton, {IChButton} from "../components/ChButton";
 import {useEffect, useState} from "react";
 import {primaryButton} from "./ch-button.stories";
+import React from "react";
 
 export default {
     title: 'Example/ChMessage',

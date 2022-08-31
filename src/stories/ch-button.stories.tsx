@@ -1,4 +1,5 @@
-import ChButton, {IChButton} from "../Components/ChButton";
+import React from "react";
+import ChButton, {IChButton} from "../components/ChButton";
 
 export default {
     title: 'Example/ChButton',
