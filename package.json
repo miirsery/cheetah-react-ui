@@ -4,6 +4,7 @@
   "description": "",
   "main": "./dist/index.js",
   "scripts": {
+    "pub": "webpack && npm version patch && npm publish",
     "storybook": "start-storybook -p 6008",
     "build-storybook": "build-storybook"
   },
